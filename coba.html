@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Web Portofolio Saint</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="text-left text-4xl"><a href="#profil">SuintX</a></div>
+    <nav>
+      <a href="#profil">Profil</a>
+      <a href="#portofolio">Portofolio</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+
+    <section
+      id="profil"
+      class="text-center py-20 px-4 bg-white shadow-md flex justify-center items-center gap-8"
+    >
+      <div class="flex flex-col w-1/4">
+        <img
+          src="https://i.ibb.co/0j9y2vY/Saint-Khafid-Islami.png"
+          alt="Foto Profil Saint Khafid Islami"
+          class="w-48 h-48 rounded-full mx-auto mb-4"
+        />
+      </div>
+      <section class="w-1/2">
+        <h1 class="text-5xl font-bold mb-4">Halo, saya Saint Khafid Islami</h1>
+        <p class="text-xl text-cyan-950 dark:text-cyan-950">
+          Saya seorang Web Developer
+        </p>
+        <br />
+        <p class="text-base text-dark-800">
+          Saya adalah seorang mahasiswa UDINUS Semarang yang berantusias untuk
+          menjadi Web Developer
+        </p>
+      </section>
+    </section>
+
+    <section id="portofolio" class="container mx-auto p-8">
+      <h2 class="text-4xl font-bold text-center mb-12">Portofolio Saya</h2>
+
+      <div class="catalog-container">
+        <div class="product-card">
+          <img src="https://via.placeholder.com/250" alt="Proyek 1" />
+          <h3 class="text-xl">Porto 1</h3>
+          <p class="price">Aplikasi To-do List</p>
+          <button>Lihat Detail</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://via.placeholder.com/250" alt="Proyek 2" />
+          <h3 class="text-xl">Porto 2</h3>
+          <p class="price">Desain Web Penjualan Komputer</p>
+          <button>Lihat Detail</button>
+        </div>
+
+        <div class="product-card">
+          <img src="https://via.placeholder.com/250" alt="Proyek 3" />
+          <h3 class="text-xl">Porto 3</h3>
+          <p class="price">Desain Web Absensi Kelas</p>
+          <button>Lihat Detail</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="container mx-auto p-8 my-8">
+      <h2 class="text-4xl font-bold text-center mb-12">Hubungi Saya</h2>
+      <form
+        id="contact-form"
+        class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg"
+      >
+        <section class="mb-4">
+          <label for="nama" class="block text-gray-700 font-medium mb-2"
+            >Nama:</label
+          >
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            class="w-full p-3 border border-gray-300 rounded-lg"
+            required
+          />
+        </section>
+        <section class="mb-4">
+          <label for="email" class="block text-gray-700 font-medium mb-2"
+            >Email:</label
+          >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="w-full p-3 border border-gray-300 rounded-lg"
+            required
+          />
+        </section>
+        <section class="mb-4">
+          <label for="pesan" class="block text-gray-700 font-medium mb-2"
+            >Pesan:</label
+          >
+          <textarea
+            id="pesan"
+            name="pesan"
+            rows="4"
+            class="w-full p-3 border border-gray-300 rounded-lg"
+            required
+          ></textarea>
+        </section>
+        <button
+          type="submit"
+          class="w-full bg-blue-600 text-white p-3 rounded-lg font-bold hover:bg-blue-700"
+        >
+          Kirim
+        </button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Saint Khafid I. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

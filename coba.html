@@ -8,68 +8,162 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="text-left text-4xl"><a href="#profil">SuintX</a></div>
-    <nav>
-      <a href="#profil">Profil</a>
-      <a href="#portofolio">Portofolio</a>
-      <a href="#kontak">Kontak</a>
-    </nav>
+    <header class="sticky top-0 z-10 shadow-lg">
+      <div class="container mx-auto flex justify-between items-center p-4">
+        <div class="text-3xl font-extrabold text-white">
+          <a href="#profil" class="hover:text-sky-500">SuintX</a>
+        </div>
+
+        <nav class="flex space-x-6">
+          <a
+            href="#home"
+            class="text-white hover:text-cyan-400 text-lg transition duration-300"
+            >Home</a
+          >
+          <a
+            href="#profil"
+            class="text-white hover:text-cyan-400 text-lg transition duration-300"
+            >Profil</a
+          >
+          <a
+            href="#portofolio"
+            class="text-white hover:text-cyan-400 text-lg transition duration-300"
+            >Portofolio</a
+          >
+          <a
+            href="#kontak"
+            class="text-white hover:text-cyan-400 text-lg transition duration-300"
+            >Kontak</a
+          >
+        </nav>
+      </div>
+    </header>
 
     <section
-      id="profil"
-      class="text-center py-20 px-4 bg-white shadow-md flex justify-center items-center gap-8"
+      id="home"
+      class="text-center py-30 px-4 bg-white shadow-md flex justify-center items-center gap-8"
     >
       <div class="flex flex-col w-1/4">
         <img
-          src="https://i.ibb.co/0j9y2vY/Saint-Khafid-Islami.png"
+          src="asset/Gunung.jpg"
           alt="Foto Profil Saint Khafid Islami"
-          class="w-48 h-48 rounded-full mx-auto mb-4"
+          class="w-100 h-100 rounded-lg border-black mx-auto mb-4"
         />
+      </div>
+      <section class="w-1/2">
+        <h1 class="text-5xl font-bold mb-4 text-left">
+          Haloo!, saya Saint
+        </h1>
+        <p class="text-xl text-blue-950 text-left">
+          Web Developer | Menciptakan Pengalaman Digital yang Fungsional &
+          Menarik
+        </p>
+        <br />
+        <p class="text-base text-dark-800 text-left">
+          Saya adalah seorang mahasiswa semester 3 di Universitas Dian Nuswantoro
+          (UDINUS) Semarang, jurusan Sistem Informasi. Saya memiliki minat
+          yang besar dalam pengembangan web dan bersemangat untuk belajar.
+        </p>
+        </div>
+      </section>
+    </section>
+
+    <section
+      id="profil"
+      class="text-center mt-16 py-20 px-4 bg-white shadow-md flex justify-center items-center gap-8"
+    >
+      <div class="flex flex-col w-1/4">
+        <img
+          src="asset/Gunung.jpg"
+          alt="Foto Profil Saint Khafid Islami"
+          class="w-50 h-50 rounded-full object-cover shadow-xl border-black mx-auto mb-4"
+        />
+        <img src="asset/Gunung.jpg" alt="Gunung" class="w-50 h-50 rounded-full object-cover shadow-xl border-black mx-auto mb-4" />
       </div>
       <section class="w-1/2">
         <h1 class="text-5xl font-bold mb-4 text-left">
           Halo, saya Saint Khafid Islami
         </h1>
-        <p class="text-xl text-cyan-950 text-cyan-950 text-left">
-          Saya seorang Web Developer
+
+        <p class="text-base text-dark-800 text-left">
+          Saya adalah seorang Web Developer (Magang) yang bersemangat dalam membangun
+          solusi digital yang efektif dan mudah digunakan. Sebagai mahasiswa
+          UDINUS Semarang, saya fokus mengubah konsep desain menjadi kode yang
+          bersih, responsif, dan optimal. Saya cukup terampil dalam pengembangan
+          front-end dan terus mengeksplorasi teknologi baru untuk memberikan
+          nilai tambah pada setiap proyek.
+        </p> <br>
+        <p class="text-base text-dark-800 text-left">
+          Saya tertarik pada pengembangan web front-end karena saya menikmati proses menciptakan
+          sesuatu yang dapat diakses dan digunakan oleh banyak orang. Saya percaya bahwa
+          teknologi web memiliki potensi besar untuk mengubah cara kita berinteraksi.
         </p>
         <br />
-        <p class="text-base text-dark-800 text-left">
-          Saya adalah seorang mahasiswa UDINUS Semarang yang berantusias untuk
-          menjadi Web Developer
-        </p>
+
+        <h3 class="text-lg font-semibold text-gray-900 mb-3 text-left">
+          Deskripsi Diri Singkat:
+        </h3>
+        <ul class="text-left list-disc list-inside mb-6">
+          <li>Usia: 19 Tahun</li>
+          <li>Domisili: Semarang Tengah, Jawa Tengah</li>
+          <li>Pendidikan: Mahasiswa Sistem Informasi di UDINUS Semarang</li>
+          <li>Hobi: Membaca dan Bermain Game</li>
+        </ul>
+        
+
+        <h3 class="text-lg font-semibold text-gray-900 mb-3 text-left">
+          Keahlian Dasar:
+        </h3>
+        <div class="flex flex-wrap gap-3 mb-8">
+          <span
+            class="px-3 py-1 bg-blue-100 text-blue-800 text-sm font-medium rounded-full"
+            >HTML & CSS</span
+          >
+          <span
+            class="px-3 py-1 bg-cyan-100 text-cyan-800 text-sm font-medium rounded-full"
+            >Tailwind CSS</span
+          >
+          <span
+            class="px-3 py-1 bg-yellow-100 text-yellow-800 text-sm font-medium rounded-full"
+            >JavaScript (DOM)</span
+          >
+          <span
+            class="px-3 py-1 bg-green-100 text-green-800 text-sm font-medium rounded-full"
+            >GitHub (Dasar)</span
+          >
+        </div>
       </section>
     </section>
 
     <section id="portofolio" class="container mx-auto p-8">
-      <h2 class="text-4xl font-bold text-center mb-12">Portofolio Saya</h2>
+      <h2 class="text-4xl mt-16 font-bold text-center mb-12">Portofolio Saya</h2>
 
       <section class="catalog-container">
         <section class="product-card">
-          <img src="https://via.placeholder.com/250" alt="Porto 1" />
+          <img src="asset/APK To-do List.jpg" alt="Porto 1" />
           <h3 class="text-xl font-bold">Porto 1</h3>
-          <p class="price">Aplikasi To-do List</p>
-          <button>Lihat Detail</button>
+          <p class="price">Aplikasi Web To-do List</p>
+          <a href="porto1.html" class="inline-block w-25 text-center text-white py-2 font-normal rounded-lg transition duration-100"><button>Detail</button></a>
         </section>
 
         <section class="product-card">
-          <img src="https://via.placeholder.com/250" alt="Porto 2" />
+          <img src="asset/Desain Web Penjualan Komputer.png" alt="Porto 2" />
           <h3 class="text-xl font-bold">Porto 2</h3>
           <p class="price">Desain Web Penjualan Komputer</p>
-          <button>Lihat Detail</button>
+          <a href="porto2.html" class="inline-block w-25 text-center text-white py-2 font-normal rounded-lg transition duration-100"><button>Detail</button></a>
         </section>
 
         <section class="product-card">
-          <img src="https://via.placeholder.com/250" alt="Porto 3" />
+          <img src="asset/Desain Web Absensi Kelas.jpg" alt="Porto 3" />
           <h3 class="text-xl font-bold">Porto 3</h3>
           <p class="price">Desain Web Absensi Kelas</p>
-          <button>Lihat Detail</button>
+          <a href="porto3.html" class="inline-block w-25 text-center text-white py-2 font-normal rounded-lg transition duration-100"><button>Detail</button></a>
         </section>
       </section>
     </section>
 
     <section id="kontak" class="container mx-auto p-8 my-8">
-      <h2 class="text-4xl font-bold text-center mb-12">Hubungi Saya</h2>
+      <h2 class="text-4xl mt-16 font-bold text-center mb-12">Hubungi Saya</h2>
       <form
         id="contact-form"
         class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg"
@@ -112,17 +206,57 @@
         </section>
         <button
           type="submit"
-          class="w-full bg-blue-600 text-white p-3 rounded-lg font-bold hover:bg-blue-700"
+          class="w-full bg-blue-400 text-white p-3 rounded-lg font-bold hover:bg-sky-700 transition duration-300"
         >
           Kirim
         </button>
       </form>
     </section>
 
-    <footer>
-      <p>&copy; 2025 Saint Khafid I. All rights reserved.</p>
+    <footer class="text-white p-4 mt-20">
+      <div
+        class="container mx-auto flex flex-col md:flex-row justify-between items-center text-sm"
+      >
+        <p class="mb-3 md:mb-0">
+          &copy; 2025 Saint Khafid I. All Rights Reserved.
+        </p>
+
+        <div class="flex space-x-4 text-2xl">
+          <a
+            href="https://www.instagram.com/suintx?igsh=bWIwd3ltanBlanNl"
+            target="_blank"
+            class="hover:text-cyan-400 transition duration-300 transform hover:scale-110"
+          >
+            <span class="font-bold"><img src="asset/Instagram Hitam Putih.png" alt="instagram" class="w-8 h-8"></span>
+          </a>
+
+          <a
+            href="LINK_GITHUB_ANDA"
+            target="_blank"
+            class="hover:text-cyan-400 transition duration-300 transform hover:scale-110"
+          >
+            <span class="font-bold"><img src="asset/Github.png" alt="Github" class="w-8 h-8"></span>
+          </a>
+
+          <a
+            href="https://discord.com/users/602064933802344470"
+            target="_blank"
+            class="hover:text-cyan-400 transition duration-300 transform hover:scale-110"
+          >
+            <span class="font-bold"><img src="asset/Discord.png" alt="Discord" class="w-8 h-8"></span>
+          </a>
+
+          <a
+            href="mailto:valentinodaniel40@gmail.com"
+            target="_blank"
+            class="hover:text-cyan-400 transition duration-300 transform hover:scale-110"
+          >
+            <span class="font-bold"><img src="asset/Email.png" alt="Discord" class="w-8 h-8"></span>
+          </a>
+        </div>
+      </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

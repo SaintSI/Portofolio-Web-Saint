@@ -11,11 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("Nama:", nama);
     console.log("Email:", email);
 
-    alert(
-      "Terima kasih, " +
-        nama +
-        "! Pesan Anda (secara pura-pura) telah terkirim."
-    );
+    alert("Terima kasih, " + nama + "! Pesan Anda telah terkirim.");
 
     contactForm.reset();
   });

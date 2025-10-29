@@ -9,29 +9,17 @@ body {
 }
 
 header {
-  font-family: "Courier New", Courier, monospace;
-  background-color: #237dad;
-  color: white;
-  padding: 10px;
-  text-align: center;
+  background-color: #125d8a;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
 div {
-  font-weight: bold;
-  font-size: 32px;
-  background-color: #125d8a;
   position: sticky;
 }
 
 nav {
-  background-color: #125d8a;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 10px;
   position: sticky;
   top: 0px;
   z-index: 999;
@@ -60,7 +48,7 @@ nav a:hover {
 }
 
 .product-card {
-  width: 280px;
+  width: 300px;
   background-color: white;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -109,13 +97,13 @@ nav a:hover {
 }
 
 section {
-  scroll-margin-top: 130px;
+  scroll-margin-top: 80px;
 }
 
 footer {
-  background-color: #237dad;
+  background-color: #125d8a;
   color: white;
-  text-align: center;
+  text-align: left;
   padding: 15px;
   margin-top: 20px;
 }
